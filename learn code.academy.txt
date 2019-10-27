@@ -1,0 +1,102 @@
+*visual studio:live server instal dakayn dwatr open folder dakayn aw foldara hal da bzherin ka index tyaya yan  drsuti dakayn agar am (!)
+ daneyn w click bkay awa ba 7azri xoy hamu shtakan dadanet wak <html> <head> <body>. <meta> lanaw <head>...
+enja ka shtman nusi lanaw body awa open with live server dakayn. am live server bo awaya shtek bnusin
+pewist ba reloady site nakat. yak sar xoy anuset agar save bkayn.
+-----------------------------------------------------------------------
+*<button></<button>: bakardet bo drust krdni dugma bo (ok,save yan search)...
+**nav.,section,footer hamu <div>n. and * agar bnusun section yan hach (tag)ek (*2) awa 2 danaman bo anusret 
+(*3) awa 3 danaman bo anusret
+***agar (padding) (margin) 0; bo daneyn awa shashaka praw pr aygret .bchuku gawray bkayn har (page)akash way
+ le yet wata nusinaka yan background-color.
+****(display:inline-block): bakardet katek amanawet basheway block dabneyn yan shewayeki tr. nusinakaman.
+*****(flexbox)
+******boostrap
+-----------------------------
+*step1/style step2/section{background:choose color; color:choose color; padding: px; display:flex; flex-direction: row or column-reverse 
+or row or colum.
+
+**<div> margin:auto ba automaticy xoy jyay akat la har shwenek daneyt balam bo hamuy nabet.
+
+***step1/<section class="feature">
+step2/<figure>,step3/<image src="" alt"write something">,stem4/<figcaption>write something</figcaption> 
+la <style>: step1/.feature {background:white; color=gray; padding:20px; position:flex; flex-direction:row yan 
+column}, step2/ .feature figure {margin:auto; width:200px}, step 3/bo wenaka  .feature figure img
+{width:200;
+border-radius: 50%;
+text-align:center,right,left}
+
+
+
+------------------------------
+1.<header></header> bakardet katek amanawet nusinek yan rasmeek lasaruy webpage daneyn.
+---------------------
+2.<nav> <ul> yan <ol> <li> HOME</nav> katek bakary ahenin agar lasari web page wata header lay rasrt yan lay chap:
+Home,contact yan about me yan servic dadaneyn.
+-------------------------------
+3.atwanin linkey aw website danem la Home yan service yan location ...and so all ka drustm krdwa
+<li><a href="index.html">Home</a></li> yan  <li><a href="service.html">service</a></li> agar Home leyam awa 
+acheta sar webpage 1 agar away tr leyam acheta 2m... .
+-----
+4.step1/<Section class="feature-box sale yan har nawekitr"> step2/<div>what you want write here</div> ba dli
+xoman atwani (div) daneyn. la <style> section.feature-box sale {display:flex;}/ la dway (section) aw
+(point)a kate class dabneyn pewista point da bneyn. agar (class)eki tr dabneyn awa banaweki tr haman shti bo
+ akayn w atwanin section bo da naneyn har .aw shta.
+section.feature-box.sale div {background:
+width:
+margin:}.
+---------
+5.atwanin law bashay ka lanaw <nav> <li> Home <li> tya drust akaret rastm dabnem:
+step1;<li><a href="write something">write that something in href</a>. step2/<style> 
+header .that something you wrote 
+{
+background-image=url("file image/image");
+background-size:choose a size px;
+height:choose it px;
+display:inline-block;
+text-indent: choose a number px;
+psition:absolute,relative,flex;
+top: px;
+-------------------------
+6. step1/<section class=""> step2/Image atwanin alt="" bo dabneyn, step3/<h1,2,3,4>write something</h1,2,3,4>
+aw nusina la panay rasmaka anusret.
+ --or
+**step1/<figure></figure> step/2 Image, step3/<figcaption>write something</figcaption> am nusina la xwar
+rasmaka anusrt.
+step2/<figure>,step3/<image src="" alt"write something">,stem4/<figcaption>write something</figcaption> 
+la <style>: step1/.feature {background:white; color=gray; padding:20px; position:flex; flex-direction:row yan 
+column}, step2/ .feature figure {margin:auto; width:200px}, step 3/bo wenaka  .feature figure img
+{width:200;
+border-radius: 50%;
+text-align:center,right,left}
+---------------------------
+7.box-shadow: bakardet bo danani sebar bo rasmi sar web pageakaw:/box-shadow=choose color and choose number of px;
+----------------------------
+8.@media screen and (max-width:800px) {.feature (aw classaya ka peshtr daman nabu la section);
+{background: red;}
+}
+ba pechawa agar dabneyn (min-width:400px):  shashaka gawra bkayn sur abet bchuk bkayn rangeki tr dabet
+  amana bakardet katek shaka bchuk bkayt awa sur abet agar gawray bkayt rangeki tr dabet
+--------------------------------
+<li class"mobaile"><a href:"mobail"></a></li>
+*la style :header.mobil {display:none;}
+dway nav li{}
+ @media screen and(max-width:715px){
+header {height:choose a number;
+bckground-position:0 -30px yan choose a number}
+header.mobaile{ diasplay:inline-block;
+}
+header.desktop { diasplay:none;
+}
+}
+@media scree and(max-width:500px){
+header {
+height: 200px or choose height;
+background-position: 0 -0px yan zhmarayeki tr;
+}
+}
+----------
+** la classi .feature  display: block bo da daneyn w  @media scree and(max-width:715px) {
+.feature {
+display:block;
+}
+}

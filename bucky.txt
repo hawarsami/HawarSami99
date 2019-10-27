@@ -1,0 +1,199 @@
+*The "<!DOCTYPE HTML>" tag just tells the browser that you are using html. It is not always
+* The <!DOCTYPE HTML> tag tells the browser that the file is composed of HTML. 
+------------
+1.< >: ya3ni dastpe krdn 
+</>:ya3ni kotay pe henan
+-------------
+2.<html>:bakardet bo bnyat nani HTML w pishandani ada lalayan 
+<>tags 
+-------------
+3.<h1> </h1>:bakar det bo gorini size  wa (header) la saraway web anusret
+--------------
+4.agar nusinek bnusin lanaw <body> awa nusineki asayyiman bo anusret balam agar amay bo daneyn
+<h1,2,3,4,5...></h1,2,3,4,5.....> awa jori nusinw size agoret.
+
+--------------
+5.<p>  </p>:ama bo drust krdni paragraph bakardet
+Hawar Sami is best student. Hawar Sami is a one in the world.
+abeta bama:
+*Hawar Sami is best student.
+*Hawar Sami is a one in the world.
+------
+6.<br />: break bakardet bo jya krdnawa 2 rsta yan zyatr; agar lanaw <p></p> bu awa 1 line yeta xwarawa wak ama:
+<p>Hawar Sami is best student.<br />Hawar Sami is a one in the world.</p>
+*Hawar Sami is best student.
+*Hawar Sami is a one in the world.
+---------------
+7.balam agar awa nusra <p>Hawar Sami is best student.</p> <br/ >Hawar Sami is a one in the world. 
+awa bam shewaya dabet:
+Hawar Sami is best student.
+
+Hawar Sami is a one in the world.
+-----------------------------------
+8.<hr />:mean horizontal bakar det bo danani (line) wata hel bazherda danan
+-----------------------------------
+9.<strong></strong> bakar det bo tox krdn(bold> bo hach nusinek bmanawet; <em></em> bakar det bo nusini rsta ba sheway italics
+-----------------------------------
+10.chon comment da bneyn?: <!--change this paragraph-->.
+===================
+*<a href="mailto:hawar.313185019@uhd.edu.iq">Email UHD</a> linki email awa da danret
+-----------------------------------
+11.<a href=""></a>: am (href> pewista habet bo danani link .(href) is a Hypertext reference...... HTML ba kary denet bo
+drust krdni Link bo laparakani tr.....<a></a> pewista habet.
+-----------------------------------
+12.bo away nawek paya bkayn la newan chandin naw awa anusin:<h3><a name="baw naway ka amanawe"></a></h3>
+enja la saraway naw <body> anusin <a href="#baw maway ka amanawet"></a>
+------------------------------------
+13.choniaty danani Linki email:<a href="mailto:har emailek bmanawet title="har shtek bmanawet">Email Hawar Sami</a>
+------------------------------------
+14.choniaty danani rasm lasar webpage:<img src="nawi aw file ka rasmakay tyaya/rasmaka"/>
+*<a href="http://nawi aw siteay ka amanawe"><img src="nawi aw file ka rasmakay tyaya/rasmaka"/>
+-----
+*bo gorini (size)y rasmi sar (webpage) bam shewayaya:<img src="nawi aw file ka rasmakay tyaya/rasmaka" 
+height="agar (-)bu awa bchuk dabet rasmaka (+)gawra" width="aw zhmarayay ka amanawet"/>
+------------------------------------
+15.bo danani (Table) la website bam shewaya dabet: <table border="1">  am border bakardet bo xshta drust krdn.
+<tr> wata (table row)
+<td> la naw am shtaya aynusin harchyek bmanawet</td> atwanin <tr> w <td> zyatr daneyn
+</tr>
+</table>
+---
+*<th></th>:mean (Table Headers>:katek xshtayek drust akayn sary derakani bo nusin wak Name,age yan Id ba dli xoman.
+--------
+step1/<th colspan="2 yan hach zhmarayek"><h3>odd people</h3></th>.step2/<tr> <th>First name yan harshtek bmanawet</th> </tr>
+:(colspan)a mabasty awaya chanek colspan awet tarxani bkayt 
+bo data kaw.( It allows the single table cell to span the width of more than one cell or column)
+
+-----
+*<table border="1" cellpadding yan cellspacing="harzhmarayek bmanawet">:(cellpadding) bakardet bo frawan krdni xanakan.
+---------------
+16.agar bmanawet (List) drust bkayn awa pewistman ba <ul> haya:<ul> <li></li> </ul>:(ul) meaning(unordered list) ka
+bakardet bo danani point (.) point ba poit yeyta xwarawa kate listek naw da aneyt line by line.
+(li) meaning( a list item) .
+balam:
+*<ol>:(order list): 1,2,3abet ba zhmara line by line yeta xwarawa bonmuna 1.Hawar,linek yeta xwarawa 2. Sami
+-------------------
+17.<style type="text/css"</style> lanaw <head> aynusin bakardet katek bmanawet shtek designi bo bkayn.
+bonmusa <p></p> wata wata paragraph katek paragraphek anusin la naw body yan har shtek awa lanaw <head> xwar <style>
+anusin p naw <p> yan har nusinek bet wak <h1 ,2,3,4,5> enja {color:hach range bmanawet;font-family:arial yan hach nusinek;} 
+enja aw aw paragraphaman bo rang akat atwanin sheway nusin bgorin.
+
+*bo away boshay bxayna nean (Line)kan bam shewaya dabet p yan h1,2,3,4,5..{line-height yan width: 150 yan ba dli xoman %;}
+--------------------------------
+18.lanaw <style> anusin p yan h1,2,3,4 yan ul yan ol yan harshtek bmanawet enja{text-alignt:center,left or right;}
+ama bakardet bo away nusin bcheta nawarast yan chap yan rast.
+ * {text-indent:25px yan zhmarayeki tr;}:(indent) bakardet bo  away nusini sary der cha santimek bcheta peshawa.
+* choniati rang krdni background:la <head> anusin body {background-color:black;}
+---------------------------------
+19.bo away wenay backgroundi naw <head> ba kardet bo danani wena pshtaway nusinakanu wenakani tr bam shewaya:
+*<head> body {background-image:url(image file/rasmaka); url(Uniform Resource Locator) bakardet bo away rasmakan bkayt ba chan bashek
+ba bchuk kraway .
+-------
+*bo away rasmakan dubara nakatawa bam shewaya dabet:{background-repeat:no-repeat;} agar bnusin (repeat-x) awa wenaka
+la chapawa bo rast arwat agar(y) la jyaty (x) bnusin awa rasmaka la sarawa bo xwarawa abet.
+-------
+* {background-position: 10px 60px;} wa la wenaka akat 60 px wenaka beta xwarawa 10 px bcheta peshawa w atwanin ba dli
+xoman zhmaray bo daneyn.
+*yan agar la jyati 10 px  50% bo daney awa wenaka yeta nawarast 
+------------------------------------
+20.{background-color:yellow yan har rangeki tr;  padding:aw zhmarayay amanawet; }bakardet bo rang krdni background aw nusinay amanawet. 
+(padding)eshi awaya rangu nusin frawan bkat.
+*atwanin padding-top: number px; yan (bottom) yan (right) yan (left) bo daneyn:bakarden bo ranaka yan nusin chanek 
+brwata sarawa yan xwarawa yan rast yan chap.
+------------------------------------
+21.la naw <Style>:border-color=rangek halbzhera;  border-width=zhmarayek halbzhera px;border-style=shewayek halbzhera;
+w atwanin bnusin: border-top,bottom or left,rigth-color yan width yan style;
+------------------------------------
+22.jyawazi newan (margin) w (padding):bakar det katek amanwet boshay bxayna baynian , margin (A margin is the space outside something)
+balam ( padding is the space inside something) :ama nawawa frawani akat balam margin daraway.
+--------
+la naw background-color atwanin width w height dyari bkayn.
+-------------------------------------
+23.am (code)a bakardet bo rang krdni linke kate click akayt lasaryishi rangaka agoretstyle ---> step1/ a:link{color:red; text-dicorated:none;}
+step2/-->a:visited{color:red:} step3/   a:hover{background-color:white;    color:deeppink;   text-decoration:underline;   font-weight: bold;}
+ step4/ a:active{background-color: black;}
+-------
+*atwanin table rang bkayn,border bo daneyn , backgroundakashi rang bkayn w dast kary bkayn table {border-color:3px blue;}.
+ -------------------------
+24.atwanin sheway <ul> bgorin la naw <style>:ul {list-style-type:circle yan joreki tr;}. awa ul agoret shewakay.
+*atwanin la jyaty nusin wenay bo daneyn wak ama ul {list-style-image:url(wenaka);}
+---------------
+25.la <style> agar wistman 2 sht wak yak bet awa bam shewaya aynusin: bonmuna <h1,2,3,4...> <p>
+--> h1,2,3,4...,p {etr atwani aw shtanay dabneyn ka amanawet wak background,color,text-align,text-insted}       
+----------------------------------------
+26.<span></span> bakardet katek amanawet shteki grng dyaari bkaynw rangi bkayn awa span bakar denin.
+----------------------------------------
+27.<div></div>:(division)yan (section) <div style="background-color:lightblue">
+  <h3>This is a heading</h3>
+  <p>This is a paragraph.</p>
+</div>
+----------------------------------------
+28.choniaty danani (Class): la step1/<head> step2/<stykle> step3/ (point)-->.aw naway amanawet {color:red;}
+atwanin ba dli xoman kam nusinaman bwet yan kam wshayan bwet rangi bkayn balam abet class dyary bkayn lanaw <p>
+yan <h1.2.3.4...>.   <p class="aw naway ka lagal xalakaya(.)">aw shtay ka nusiman lanaw paragraphaka </p>.
+----------------------------------------
+29.choniaty danani ID: la naw step1/ <body> step2/<div id="aw shtay ka lanaw <div> aynusin.
+la naw <style> #aw shtay ka la naw <div> aynusin {border: 2px red; position:absolute;
+top:15px; left:20 px;}
+-----------------------------------------
+30.child selector: am child selector mabasty awaya har shtek lanaw shteki tr bet alen child bonmuna
+<p><a href=""></a></p> esta (p) mnalakay (a)ya ya lanaw h1,2,3,4 yan body yan la naw div bet.  la naw <style> anusin p > a {border yan font-size yar shtek boy daneyn;}
+------------------------------------------
+31.la step1/<style>. step2/p:first-letter {fon-size yan harshteki tr }.step3/<p> Hawar is a best student</p>
+ama bakardet bo gawra krdni pity yakam. bo hamuy bakardet wak <h1,2,3> yan table  yan harshhtek bmanawe. 
+-------------------------------------------
+32.agar bmanawet aw rang w size w border w sheway nusin bgorin atwanin lanaw laparayeki tr bnusin wak ama
+step1/new page step2/shtakani bo anusin step3/save as step 4/wakay ba dli xoman atwanin dayneyn 
+step 5/casecade style sheet.(css) hal dabzherin. step6/lanaw aw page ka <html> w <head> tyaya wata yakam (web)ay
+ka drustm krd la naw <head> <link rel="stylesheet" type="text.css xoman" href="aw pagey ka taza krdman nawakay anusin"/>
+-------------------------------------------
+33.absolute yan relative yan fixed position: absolute da bneyn chwarchewaya kurta aw nusina la shwen xoy amenetawa , 
+relative chwarchewaka zor drezh abet, fixed position kate ama da aneyn am nusina bo hamu shwenek yet wata agar
+click lasar aw sahma bkayn ka yeta xwarawa awa nusinakash lagalmanda yet.
+--------------------------------------------
+34.<form> </form>:bakardet bo drust krdni formek wak username yan shteki tr:step1/<bod> step2/<form>.
+step3/username yan password yar shteki tr step4/<input> type="text" name="username" /> </form> 
+atwanin size="" bgorin la dway name="username"--->. atwanin maxlength="" dway size yan name: maxlength bakardet
+katek amanawet (zhmaraka) yan (nusinaka) ta aw shwena bet ka danrawa atwani 
+value="har nawek har zhmarayak bnusin" awa lanaw xana kaya aynuset wak Enter here yan click here.
+---------------------------------------------
+35.choniaty danani (Check Boxes & Radio Buttons):1.radio box
+Male: <imput type="Radio" name="Sex" value="Male"/>
+female: <imput type="Radio" name="Sex" value="Female"/>
+
+2.check box:<p>what is your favorite food?</p>
+potatos: <imput type="checkbox" name="food" value="potatos"/>
+pizza: <imput type="checkbox" name="food" value="pizza"/>
+------------------------------------------------
+36.step1/<body> step2/<form> step3/<select name="activities yan har shteki tr">
+ step4/<option value="play">play the guitar: (select) w (option) bakardet bo halbzhardn 
+wak chon date w month years hal abzherit lanaw listeka.  atwanin prsyarish da bneyn bo  am  (option)ana
+la dway <form>
+wak:
+choose a year  
+1999
+2000
+2001
+---------------------------------------------------
+37.choniaty daanani bio:step1/ <form> atwanin prsyarish bnusin step2/<textarea name="bio or anything"
+ row="choose Numbers" cols="chooose number">  enja chwarchewayekman bo akretawa.
+am (Row w Colums) bakardet bo away xanaka gawratr w pantr w drezhtri bkayn. 
+-----------------------------------------------------
+38. bo danani password w upload buttons file :step1/<body> step2/<for> step3/passwor: <imput type="password"
+ name="password"/>.
+bo file:step1/<p> Now submit your file or atwanin babe <p> daneyn:<imput type="file" 
+name="aw file ka amanawet dayneyn lanaw PC"/>.
+------------------------------------------------------
+39.chonyati danani submit  bo pass w username yan email or anything we want: step1/
+<form action or anything="do something" method or anything="post or anything"> 
+ 
+step2/<input type="submit or anything" value="submit or anything"/> .
+abet la naw (form) shteki trish bnusin bo away esh bkat.
+----------------------------------------
+40.about meta: <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> ama ba kardet bo away rasmaka praw
+ pr bet wata width w size
+*am (meta)ya haryakekw bo shtek bakar det.
